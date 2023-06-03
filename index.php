@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#0BAC6C">
-    <title>Sistemas de Palestras</title>
+    <script src="https://unpkg.com/@phosphor-icons/web" defer></script>
+    <title>Sistema de Palestras</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
 
 <body>
     <header>
-        <h1><a href="./">🗣️ Palestras 👥</a></h1>
+        <h1><a href="./"><i class="ph ph-chalkboard-teacher"></i> Palestras <i class="ph ph-users-four"></i></a></h1>
         <nav class="secao">
             <ul>
-                <li><a href="?page=cadastrar">Cadastrar</a></li>
-                <li><a href="?page=excluir">Excluir</a></li>
-                <li><a href="?page=listar">Listar</a></li>
-                <li><a href="?page=alterar">Editar</a></li>
+                <li><a href="?page=cadastrar"><i class="ph ph-identification-card"></i> Cadastrar </a></li>
+                <li><a href="?page=excluir"><i class="ph ph-trash"></i> Excluir</a></li>
+                <li><a href="?page=listar"><i class="ph ph-user-list"></i> Listar</a></li>
+                <li><a href="?page=alterar"><i class="ph ph-pencil-simple"></i> Editar</a></li>
             </ul>
         </nav>
     </header>

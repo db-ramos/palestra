@@ -80,7 +80,7 @@ nav ul{
 }
 nav a{
     display: block;
-    padding: 10px;
+    padding: 10px 20px;
     border-bottom: 2px solid rgba(190, 246, 223, 0.8);
     transition-duration: 300ms;
 }
