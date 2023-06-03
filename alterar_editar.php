@@ -9,5 +9,5 @@
     <p><label>Palestrante: </label><input type="text" name="palestrante" required value="<?= $p->palestrante ?>"></p>
     <p><label>Data: </label><input type="date" name="data" required value="<?= $p->data ?>"></p>
     <p><label>Hora: </label><input type="time" name="hora" required value="<?= $p->hora ?>"></p>
-    <p class="center"><input type="submit" name="bt_salvar" value="Cadastrar" ></p>
+    <p class="center"><input type="submit" name="bt_salvar" value="Salvar Alterações" ></p>
 </form>

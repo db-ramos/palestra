@@ -1,3 +1,6 @@
+
+
+
 <form action="?page=alterar" method="post">
 <?php 
 $listaPalestra = $palestra->getPalestras();
@@ -12,7 +15,7 @@ if(empty($listaPalestra)){
         echo "Palestra: $p->titulo, $p->palestrante, $p->data, $p->hora";
         echo "</p>";  
     }
-    echo "<p><input type='submit' name='bt_excluir' value='Excluir'></p>";
+    echo "<p><input type='submit' name='bt_editar' value='Editar'></p>";
 }
 
 ?>

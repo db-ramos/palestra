@@ -66,6 +66,7 @@
                 }else{
                     require "alterar.php";
                 }
+                break;
             default:                
                 require "listar.php";
                 break;
