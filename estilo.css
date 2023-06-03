@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline-color: rgb(11, 172, 108);
+}
+
+body{
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    accent-color: rgb(11, 172, 108);
+    
+}
+/* ajuste de padding */
+section,p,input{
+    padding: 8px;
+}
+
+/* fonte */
+body,input,p,h2{
+    font-family: Montserrat;
+}
+
+.form{
+    width: 100%;
+    text-align: left;
+}
+
+
+.secao{
+    padding: 4px;
+    margin: 18px;
+    border: 2px solid rgb(11, 172, 108);
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(11, 172, 108, 0.8);
+    background-color: white;
+}
+
+
+.secao p{
+    
+    font-size: 1.3em;
+}
+
+.center{
+    text-align: center;
+}
+
+.grafico{
+    width: 900px;
+    height: 500px;
+}
+
+
+header{
+    position: sticky;
+    top: 0;
+
+    text-align: center;
+    padding: 10px 0;
+    backdrop-filter: blur(12px);
+    width: 100%;
+    z-index: 100;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 0px 5px rgba(11, 172, 108, 0.5);
+}
+
+a:visited,a{
+    color: #3c5d14;
+    text-decoration: none;
+}
+
+/* menu */
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+nav a{
+    display: block;
+    padding: 10px;
+    border-bottom: 2px solid rgba(190, 246, 223, 0.8);
+    transition-duration: 300ms;
+}
+nav a:hover{
+    text-shadow: 0px 0px 20px rgba(11, 172, 108, 0.8);
+    border-bottom: 2px solid rgba(11, 172, 108, 0.8);
+}
+
+form{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+
+h2{
+    text-align: center;
+}
