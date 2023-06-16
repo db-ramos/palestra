@@ -24,7 +24,7 @@ class Palestra extends Consulta{
     }
 
     public function getPalestras(){   
-        $sql = "SELECT id,titulo,palestrante,data,hora FROM palestra";
+        $sql = "SELECT id,titulo,palestrante,DATE_FORMAT(data, '%d/%m/%Y') AS data,hora FROM palestra";
         $objetos = $this->selectObjects($sql);
         $listaPalestras = array();
         foreach($objetos as $obj){
