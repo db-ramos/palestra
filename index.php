@@ -13,7 +13,7 @@
 <body>
     <header>
         <h1><a href="./"><i class="ph ph-chalkboard-teacher"></i> Palestras <i class="ph ph-users-four"></i></a></h1>
-        <nav class="secao">
+        <nav>
             <ul>
                 <li><a href="?page=cadastrar"><i class="ph ph-identification-card"></i> Cadastrar </a></li>
                 <li><a href="?page=excluir"><i class="ph ph-trash"></i> Excluir</a></li>

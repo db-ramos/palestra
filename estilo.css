@@ -10,7 +10,7 @@ body{
     background-attachment: fixed;
     height: 100vh;
     accent-color: rgb(11, 172, 108);
-    
+    background-color: #eee;
 }
 /* ajuste de padding */
 section,p,input{
